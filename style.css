@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Roboto+Condensed:wght@300&family=Tomorrow:ital,wght@0,100;1,100&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: DM Sans;
+    color: rgb(252, 252, 252);
+    box-sizing: border-box;
+}
+#sidebar>img{
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#main-box{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+}   
+#sidebar{
+    height: 90vh;
+    flex: 1;
+    background-color:#000;
+}
+#main{
+    flex: 5;
+    background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+}
+#player{
+    position: fixed;
+    height: 10vh;
+    background-color: #181818;
+    bottom: 0px;
+    width: 100vw;
+    text-align: center; 
+}
+#sidebar{
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    /* justify-content: space-around; */
+}
+li{
+ list-style-type: none;
+}
+#side-home,#side-playlist,#side-mix-playlist{
+    /* display: flex;
+    justify-content: space-around;
+    flex-direction: column; */
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 30px;
+}
+#home-loho-1{
+    background-color:#282828;
+    display: flex;
+    justify-content: center;
+
+}
+#home-loho-1>img{
+    padding-right: 30px;
+}
+
+#search1{
+    display: flex;
+    justify-content: center;
+}
+#search1>img{
+    padding-right: 30px;
+}
+#side-home>li{
+    padding: 5px;
+}
+#libra1{
+    display: flex;
+    justify-content: center;
+}
+#libra1>img{
+     padding-left:10px; 
+    padding right: 20px:   
+}
+
+#play1,#play2,#play3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#play1>img,#play2>img,#play3>img {
+    padding-right: 30px;
+}
+
+
+
+#install-app{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 90px;
+   
+}
+#install-app>img{
+    margin-right: 20px;
+}
+.left-side, .right-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.arrow-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.good-morning{ color: #FFF;
+font-size: 38px;
+font-weight: 700;
+line-height: normal;
+padding-left: 30px;
+}
+.cards{
+    display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.c1,.c2,.c3,.c4{
+    width: 362px;
+    height: 100px;
+    background-color: #303030;
+    border-radius: 4px;
+   margin: 20px;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.card>img{
+    padding-right: 20px;
+}
+
+
+.big-card{
+    display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+
+.bc1,.bc2,.bc3,.bc4{
+    width: 251.292px;
+   height: 305.904px;  
+  flex-shrink: 0;
+  background: #181818;
+
+    /* width: 362px;
+    height: 100px; */
+    /* background-color: #303030; */
+    border-radius: 4px;
+   margin: 20px;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.bcard{
+    align-items: center;
+}
+
+#bottomgreen{
+    height: 20px;
+    width: 100vw;
+    background-color: #1ED760;
+    margin-top: 0px;
+}
+#player2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bottomgreen{
+    height: 10px;
+    width: 10vw;
+    background-color: #1ED760;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
